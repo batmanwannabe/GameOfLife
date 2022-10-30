@@ -3,7 +3,12 @@ Definition
 The universe of the Game of Life is an infinite two-dimensional orthogonal grid of square cells, each of
 which is in one of two possible states, alive or dead. Every cell interacts with its eight neighbors, which
 are the cells that are horizontally, vertically, or diagonally adjacent.
+
+Screenshot:
+![image](https://user-images.githubusercontent.com/12038334/198889509-02e59750-2879-438e-b48a-1668cdbde258.png)
+
 Rules
+
 At each step in time, the following transitions occur:
 1. Any live cell with fewer than two live neighbors dies as if caused by underpopulation.
 2. Any live cell with two or three live neighbors lives on to the next generation.
@@ -14,12 +19,14 @@ above rules simultaneously to every cell in the seed—births and deaths occur s
 discrete moment at which this happens is sometimes called a tick (in other words, each generation is a
 pure function of the preceding one). The rules continue to be applied repeatedly to create further
 generations.
+
 Objectives
 1. Implement the game of life data structures and algorithm.
 2. Demonstrate that game of life algorithm works.
+
 Hints
- To demonstrate that the program works you can print out the state of the universe to the
+To demonstrate that the program works you can print out the state of the universe to the
 console/output after each generation. There is no need to build a custom UI.
- The program must run and work properly (the working program is better than in-progress
+1. The program must run and work properly (the working program is better than in-progress
 design).
- Use the ‘Glider’ pattern placed in the middle of the 25x25 cell universe for demonstration. 
+2. Use the ‘Glider’ pattern placed in the middle of the 25x25 cell universe for demonstration. 
